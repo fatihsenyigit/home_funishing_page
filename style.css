@@ -1,0 +1,138 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80vw;
+    background-color: rgb(217, 198, 198);
+    margin: 50px auto;
+    border-radius: 50px;
+    box-shadow: 0px 0px 20px 20px grey;
+    border: 2px solid black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.navTop {
+    background-color: yellow;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 10px auto;
+}
+
+.navTop * {
+    width: 400px;
+    height: 70px;
+    background-color: white;
+    margin: 10px 5px;
+    
+}
+
+.navTop1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navTop1 img {
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+    padding: 0px;
+    box-shadow: 0px 0px 10px 5px grey;
+    border-radius: 30px;
+}
+
+.navTop1 select {
+    width: 70%;
+    height: 60px;
+    margin: 10px 10px;
+    padding: 0 10px;
+    font-family: 'Bellota Text', sans-serif;
+    font-size: 24px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.186);
+    border-radius: 10px;
+}
+
+
+.navTop2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5px;
+    background-color: rgba(128, 128, 128, 0.153);
+}
+
+
+.navTop2 input {
+    width: 300px;
+    height: 60px;
+    margin-left: 30px;
+    font-family: 'Bellota Text', sans-serif;
+    font-size: 24px;
+    border: none;
+    background-color: inherit;
+    outline: none;
+    padding: 10px;
+}
+
+
+.navTop2 img {
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+    padding: 5px;
+}
+
+.navTop3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.navTop3 * {
+    text-align: center;
+    height: 30px;
+    width: 90%;
+    padding: 0;
+}
+
+.navTop4{
+    display: flex;
+}
+
+.navTop4 * {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
+
+.navBottom {
+    background-color: yellow;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 10px auto;
+}
+
+.navBottom * {
+    width: 400px;
+    height: 70px;
+    background-color: white;
+    margin: 20px;
+}
+
+
+
+
+
+
