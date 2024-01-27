@@ -152,3 +152,98 @@ body {
   margin-left: 1.5rem;
   font-size: 1.2rem;
 }
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-image: url(./images/stock.jpg);
+  padding: 1rem 5rem;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+.header1 {
+  background-color: #d5dee5;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px black;
+}
+
+.header1-text {
+  padding: 20px;
+  font-style: italic;
+  letter-spacing: 0.3px;
+  font-size: 18px;
+}
+
+.header2 {
+  background-color: #ffc868;
+  width: 400px;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px black;
+}
+
+.header2 img {
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  bottom: 0;
+}
+
+.header2-text {
+  width: 80%;
+  float: right;
+  font-size: 18px;    
+  margin-top: 20px;
+  font-style: italic;
+  padding: 2rem;
+}
+
+.main{
+background-color: #AEA08D;
+}
+
+.mainCategory{
+  padding: 2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.cathegories{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+.cathegory{
+  width: 20rem;
+  height: 20rem;
+  margin: 1rem;
+  background-color: #eeecec;
+  padding: 1rem 2px 1rem 1rem;
+  border-radius: 10px;
+  font-family: 'Josefin Slab', serif;
+  
+}
+
+
+.cathegory img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding: 1rem 10px 1rem 1rem;
+  border-radius: 2rem;
+}
+
+.product-part{
+  padding: 2rem;
+  font-size: 1.5rem;
+
+}
