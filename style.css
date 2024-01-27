@@ -1,5 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Bellota:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Judson:ital,wght@0,400;0,700;1,400&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Bellota+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital@0;1&display=swap');
 
 * {
     margin: 0;
@@ -7,22 +8,26 @@
     box-sizing: border-box;
 }
 
+body {
+  /* margin: 10%; */
+  font-family: "Bellota", system-ui;
+  font-family: "Judson", serif;
+}
+
 .container {
     width: 80vw;
-    background-color: rgb(217, 198, 198);
     margin: 50px auto;
     border-radius: 50px;
-    box-shadow: 0px 0px 20px 20px grey;
-    border: 2px solid black;
+    box-shadow: 0px 0px 50px 20px grey;
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
 .navTop {
-    background-color: yellow;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    align-items: center;
     width: 90%;
     margin: 10px auto;
 }
@@ -65,48 +70,51 @@
 
 
 .navTop2 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 5px;
-    background-color: rgba(128, 128, 128, 0.153);
+  width: 300px;
+  height: 50px;
+  background-color: #d9d9d9;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 1rem;
 }
 
 
 .navTop2 input {
-    width: 300px;
-    height: 60px;
-    margin-left: 30px;
-    font-family: 'Bellota Text', sans-serif;
-    font-size: 24px;
-    border: none;
-    background-color: inherit;
-    outline: none;
-    padding: 10px;
+  background-color: initial;
+  border: none;
+  font-size: 1rem;
+  padding: 0.5rem;
 }
 
 
 .navTop2 img {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     margin-right: 5px;
     padding: 5px;
+    background-color: inherit;
 }
 
 .navTop3 {
-    display: flex;
-    flex-direction: column;
+  text-align: center;
+  margin-left: 1rem;
+  align-items: center;
 }
+.navTop3-number {
+  font-size: 1.5em;
+    height: fit-content;
 
-.navTop3 * {
-    text-align: center;
-    height: 30px;
-    width: 90%;
-    padding: 0;
+}
+.navTop3-text {
+  font-size: 1.1rem;
+   height: fit-content;
 }
 
 .navTop4{
     display: flex;
+    justify-content: center;
 }
 
 .navTop4 * {
@@ -116,23 +124,31 @@
 }
 
 .navBottom {
-    background-color: yellow;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    width: 90%;
-    margin: 10px auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 50px;
+  margin-left: 5rem;
+
 }
 
-.navBottom * {
-    width: 400px;
-    height: 70px;
-    background-color: white;
-    margin: 20px;
+.navBottom1 {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  height: 40px;
+  font-size: 1.3rem;
+  background-color: #d9d9d9;
+  border-radius: 5px;
+  font-style: italic;
+  gap: 2rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
 }
 
 
-
-
-
-
+.navBottom2 * {
+  display: inline-block;
+  margin-left: 1.5rem;
+  font-size: 1.2rem;
+}
