@@ -20,7 +20,6 @@ body {
     border-radius: 50px;
     box-shadow: 0px 0px 50px 20px grey;
     padding-top: 50px;
-    padding-bottom: 50px;
 }
 
 .navTop {
@@ -339,3 +338,19 @@ span{
   align-items: center;
 }
 
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  align-items: center;
+}
+
+.footerRight {
+  display: flex;
+  gap: 1rem;
+}
+
+.footerRight a {
+  text-decoration: none;
+  border-bottom: 1px solid black;
+}
