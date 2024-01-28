@@ -277,3 +277,65 @@ align-items: center;
   object-fit: cover;
 }
 
+.contact {
+  background-color: #AEA08D;
+  display: flex;
+  padding: 2rem;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contactLeft {
+  background-color: inherit;
+  width: 50%;
+  padding: 1rem;
+}
+
+.contactText1 {
+  font-family: "Bellota", system-ui;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.contactText2 {
+  margin-top: 1rem;
+  line-height: 1.5;
+}
+
+span{
+ color:  #f37705;
+}
+
+.contactRight {
+  background-color: inherit;
+  width: 40%;
+  font-size: 1.5rem;
+}
+
+.formElement {
+  margin: 1.5rem 1rem;
+}
+
+.contactRight form input {
+  width: 100%;
+  background-color: inherit;
+  padding: 0.5rem 0;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.formButton {
+  padding: 1rem;
+  border-radius: 5px;
+  width: 13rem;
+  height: 40px;
+  font-style: italic;
+  margin-left: 1rem;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
